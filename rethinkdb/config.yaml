@@ -9,5 +9,4 @@ ports:
     container: 28015
     local: 28015
 
-build: false
 tag: josh/rethink
