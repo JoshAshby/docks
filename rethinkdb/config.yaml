@@ -1,0 +1,13 @@
+ports:
+  web_port:
+    container: 8080
+    local: 8080
+  cluster_port:
+    container: 29015
+    local: 29015
+  server_port:
+    container: 28015
+    local: 28015
+
+build: false
+tag: josh/rethink
